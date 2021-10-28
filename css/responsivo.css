@@ -1,0 +1,4 @@
+@media screen and (max-height: 100px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 14px;}
+  }

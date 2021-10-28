@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="../css/main.css" />
+
+    <title>FEMSA - TELA 2</title>
+  </head>
+  <body>
+ 
+    <div class="headerh">
+        <h2>Teste</h2>
+    </div>     
+        <!-- HEADER -->
+            
+            
+            <nav class="navbar navbar-expand-lg navbar-light bg-light headerh">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#">
+                    <img src="../assets/imagens/logo.png" alt="Usuário" />
+                  </a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#"></a>
+                        </li>                                    
+                        </ul>
+                        
+                    <img src="../assets/icones/user.png" alt="Usuário"  class="img-fluid img-user"/>
+                    <div class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Catharina Moral
+                        </a>
+                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#">Perfil</a></li>
+                        <li><a class="dropdown-item" href="#">Configurações</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Sair</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </nav>
+           
+        <!-- FIM HEADER -->
+        <div class="sidenav">
+            <a href="../index.html"><img class="img-fluid img-icon" src="../assets/icones/home.svg"></a>
+            <a href="tela2.html"><img class="img-fluid img-icon" src="../assets/icones/grafico.svg"></a>
+            <a href="tela4.html"><img class="img-fluid img-icon" src="../assets/icones/config.svg"></a>
+
+          </div>
+          <div class="main">
+              <div class="alinhamento">
+                    <div>
+                        <h3>Comparação de Fornecedores</h3>
+                        <p>Escolha a categoria do fornecedor</p>
+                        <div class="selectInput"> 
+                          <select class="form-select col-14" aria-label="Default select example">
+                            <option selected>Selecione...</option>
+                            <option value="1">Papelaria</option>
+                            <option value="2">Matéria-Prima</option>
+                            <option value="3">Reciclagem</option>
+                          </select>
+                        </div>
+                    </div>
+                  
+        </div>
+            <div class="linha">
+            <div>
+              <div class="selectInput py-4"> 
+                <p>Escolha o 1º fornecedor</p>
+                <select class="form-select col-14" aria-label="Default select example">
+                  <option selected>Selecione...</option>
+                  <option value="1">Jambo Equip. TM</option>
+                  <option value="2">Lojas Americanas e Companhias</option>
+                  <option value="3">Adoteto ORI Embalagens</option>
+                </select>
+              </div>
+            </div>
+            <div >
+                
+                    <div class="table-responsive py-4 mg-20">
+                        <p>Escolha o 2º fornecedor</p>
+                            <div class="selectInput"> 
+                                  <select class="form-select col-14" aria-label="Default select example">
+                                    <option selected>Selecione...</option>
+                                    <option value="1" disabled>Jambo Equip. TM</option>
+                                    <option value="2">Lojas Americanas e Companhias</option>
+                                    <option value="3">Adoteto ORI Embalagens</option>
+                                  </select>
+                            </div>                  
+                    </div>
+                  
+            </div>
+          
+        </div>
+        <button class="btn-ok" onclick="window.location.href='tela3.html'">OK</button>
+          </div>
+
+
+    
+
+    <!-- SCRITPS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
